@@ -1,0 +1,212 @@
+[
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "Explain the difference between RAG and fine-tuning. When would you choose one over the other?",
+    "difficulty": "medium",
+    "topics": ["RAG", "fine-tuning", "LLMs"]
+  },
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "Design a production RAG pipeline for a document Q&A system. Walk me through every architectural decision.",
+    "difficulty": "hard",
+    "topics": ["RAG", "system design", "vector DB"]
+  },
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "Your fine-tuned model performs well on training data but poorly on real user queries. How do you debug this?",
+    "difficulty": "hard",
+    "topics": ["fine-tuning", "debugging", "evaluation"]
+  },
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "How would you evaluate a multilingual LLM beyond standard benchmarks?",
+    "difficulty": "medium",
+    "topics": ["evaluation", "multilingual", "metrics"]
+  },
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "Explain how chunking strategy affects RAG performance. Compare fixed-size vs semantic chunking.",
+    "difficulty": "medium",
+    "topics": ["RAG", "chunking", "retrieval"]
+  },
+  {
+    "company": "Sarvam AI",
+    "role": "LLM Engineer",
+    "question": "What is hallucination in LLMs and what are 3 production strategies to reduce it?",
+    "difficulty": "medium",
+    "topics": ["hallucination", "RAG", "production"]
+  },
+  {
+    "company": "Razorpay",
+    "role": "Backend Engineer",
+    "question": "Design a payment gateway that handles 10000 transactions per second. How do you ensure consistency?",
+    "difficulty": "hard",
+    "topics": ["system design", "distributed systems", "consistency"]
+  },
+  {
+    "company": "Razorpay",
+    "role": "Backend Engineer",
+    "question": "How would you implement idempotency in a payment API? Why is it critical?",
+    "difficulty": "medium",
+    "topics": ["APIs", "idempotency", "payments"]
+  },
+  {
+    "company": "Razorpay",
+    "role": "Backend Engineer",
+    "question": "Given a list of transactions with timestamps, find all duplicates within a 5-minute window.",
+    "difficulty": "easy",
+    "topics": ["coding", "sliding window", "hashmaps"]
+  },
+  {
+    "company": "Razorpay",
+    "role": "Backend Engineer",
+    "question": "How would you design a fraud detection system for real-time payment processing?",
+    "difficulty": "hard",
+    "topics": ["ML", "real-time", "fraud detection"]
+  },
+  {
+    "company": "Razorpay",
+    "role": "Backend Engineer",
+    "question": "Explain the CAP theorem and how it applies to a payment system.",
+    "difficulty": "medium",
+    "topics": ["distributed systems", "CAP theorem", "consistency"]
+  },
+  {
+    "company": "CRED",
+    "role": "Backend Engineer",
+    "question": "Design a credit score monitoring system that notifies users when their score changes.",
+    "difficulty": "medium",
+    "topics": ["system design", "notifications", "data pipelines"]
+  },
+  {
+    "company": "CRED",
+    "role": "Backend Engineer",
+    "question": "Implement a rate limiter that allows maximum 100 requests per minute per user.",
+    "difficulty": "easy",
+    "topics": ["rate limiting", "algorithms", "Redis"]
+  },
+  {
+    "company": "CRED",
+    "role": "Backend Engineer",
+    "question": "How would you design CRED's reward points system to handle millions of concurrent users?",
+    "difficulty": "hard",
+    "topics": ["concurrency", "distributed locks", "caching"]
+  },
+  {
+    "company": "Fractal Analytics",
+    "role": "AI Engineer",
+    "question": "A churn prediction model has 95% accuracy but the business says it is useless. Why and how do you fix it?",
+    "difficulty": "medium",
+    "topics": ["class imbalance", "metrics", "business understanding"]
+  },
+  {
+    "company": "Fractal Analytics",
+    "role": "AI Engineer",
+    "question": "Your XGBoost model degrades in production after 2 months. How do you diagnose and fix this?",
+    "difficulty": "hard",
+    "topics": ["data drift", "model monitoring", "MLOps"]
+  },
+  {
+    "company": "Fractal Analytics",
+    "role": "AI Engineer",
+    "question": "Design an end-to-end MLOps pipeline for a model that predicts customer lifetime value.",
+    "difficulty": "hard",
+    "topics": ["MLOps", "feature store", "model registry", "monitoring"]
+  },
+  {
+    "company": "Fractal Analytics",
+    "role": "AI Engineer",
+    "question": "Explain SHAP values and how you would use them to explain a model decision to a non-technical client.",
+    "difficulty": "medium",
+    "topics": ["explainability", "SHAP", "XAI"]
+  },
+  {
+    "company": "Generic",
+    "role": "AI Engineer",
+    "question": "Explain the bias-variance tradeoff with a real-world example.",
+    "difficulty": "easy",
+    "topics": ["ML fundamentals", "bias", "variance"]
+  },
+  {
+    "company": "Generic",
+    "role": "AI Engineer",
+    "question": "What is the attention mechanism in transformers and why did it replace RNNs?",
+    "difficulty": "medium",
+    "topics": ["transformers", "attention", "NLP"]
+  },
+  {
+    "company": "Generic",
+    "role": "LLM Engineer",
+    "question": "What is hallucination in LLMs and what are 3 strategies to reduce it in production?",
+    "difficulty": "medium",
+    "topics": ["hallucination", "RAG", "production LLMs"]
+  },
+  {
+    "company": "Generic",
+    "role": "LLM Engineer",
+    "question": "Design a production LLM chatbot for a bank. Consider safety, accuracy, latency and cost.",
+    "difficulty": "hard",
+    "topics": ["system design", "safety", "LLMs", "RAG"]
+  },
+  {
+    "company": "Generic",
+    "role": "Agentic AI Engineer",
+    "question": "What is the ReAct pattern in AI agents? How does it differ from a simple LLM chain?",
+    "difficulty": "medium",
+    "topics": ["agents", "ReAct", "LangGraph"]
+  },
+  {
+    "company": "Generic",
+    "role": "Agentic AI Engineer",
+    "question": "Design a multi-agent system for automated software testing. How do agents communicate and how do you prevent infinite loops?",
+    "difficulty": "hard",
+    "topics": ["multi-agent", "LangGraph", "system design"]
+  },
+  {
+    "company": "Generic",
+    "role": "AI Engineer",
+    "question": "Explain how you would build a text classification pipeline from scratch using transformers.",
+    "difficulty": "medium",
+    "topics": ["NLP", "transformers", "classification"]
+  },
+  {
+    "company": "Generic",
+    "role": "AI Engineer",
+    "question": "What is LoRA and why is it better than full fine-tuning for most use cases?",
+    "difficulty": "medium",
+    "topics": ["LoRA", "fine-tuning", "PEFT"]
+  },
+  {
+    "company": "Generic",
+    "role": "LLM Engineer",
+    "question": "How does chunking strategy affect RAG performance? Compare fixed-size vs semantic chunking.",
+    "difficulty": "medium",
+    "topics": ["RAG", "chunking", "retrieval"]
+  },
+  {
+    "company": "Generic",
+    "role": "LLM Engineer",
+    "question": "What is RAGAS and how do you use it to evaluate a RAG pipeline?",
+    "difficulty": "medium",
+    "topics": ["RAGAS", "evaluation", "RAG"]
+  },
+  {
+    "company": "Generic",
+    "role": "Agentic AI Engineer",
+    "question": "Explain LangGraph state management. How is it different from a simple LangChain chain?",
+    "difficulty": "medium",
+    "topics": ["LangGraph", "state", "agents"]
+  },
+  {
+    "company": "Generic",
+    "role": "AI Engineer",
+    "question": "How would you handle a situation where your training data has significant class imbalance?",
+    "difficulty": "easy",
+    "topics": ["class imbalance", "SMOTE", "sampling"]
+  }
+]

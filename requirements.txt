@@ -1,0 +1,10 @@
+streamlit
+groq
+chromadb
+sentence-transformers
+pymupdf
+python-dotenv
+langgraph
+langchain-groq
+duckduckgo-search
+reportlab
